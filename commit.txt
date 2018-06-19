@@ -1,0 +1,5 @@
+# just a reminder of how to update the webpage
+
+git add index.html (and other pages)
+git commit -m "Commit message"
+git push -u origin master
