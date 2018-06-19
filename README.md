@@ -1,2 +1,0 @@
-# danjonesocean.github.io
-Website
