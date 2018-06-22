@@ -30,7 +30,7 @@
 								<li><a href="#intro">About</a></li>
 								<li><a href="#research">Research</a></li>
 								<li><a href="#teaching">Teaching</a></li>
-								<li><a href="https://anchor.fm/climate-scientists">Podcast</a></li>
+								<li><a href="#podcast">Podcast</a></li>
 								<li><a href="#CV">CV</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -46,7 +46,7 @@
 								<p><center><img src="images/dj.jpg" width="300" alt="" /></center></p>
 								<p>I entered oceanography via physics and applied mathematics. My typical regions of study are the Southern Ocean and (recently) the North Atlantic, which are both 
 								climate-relevant regions that feature strong exchanges of heat and carbon between the atmosphere and the deep ocean. My toolbox includes a hierarchy of approaches, from simple pen-and-paper representations to high-resolution adjoint models. 
-								I also use a few machine learning techniques (that is, algorithmic clustering) to better understand oceanic data. Outside of work, I spend time with my wife and young son, squeezing in some reading and guitar playing where possible. 
+								I also use a few machine learning techniques (so far, mainly unsupervised clustering) to better understand oceanic data. Outside of work, I spend time with my wife and young son, squeezing in some reading and guitar playing where possible. 
 								We live in a village just outside of Cambridge, UK.</p>
 							</article>
 
@@ -56,64 +56,67 @@
 								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 								<p><h3 class="minor">Background</h3>
 								<img src="images/expose.jpg" width="200" alt="" /><br>
-								Earth's oceans have an enormous impact on global and regional climate. Since the 1970s, 
-								the ocean has absorbed more than 90% of the total extra thermal energy added to the climate system via anthropogenic greenhouse gas emissions [ref]. However, 
-								the mechanisms involved in this exchange of heat, and how they may change in the future, are still poorly understood.
+								Earth's oceans have an enormous impact on global and regional climate. For example, the ocean contains more than <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL051106">90% of the extra heat</a> present in the climate system due 
+								to global warming. However, the mechanisms involved in the exchange of heat and carbon between the ocean and atmosphere, and how they may change in the future, are still poorly understood.
 								
 								</p>
 					
 								<p>At a few distinct locations on Earth, the natural injection of heat and carbon into the interior ocean, called <i>subduction</i>, is particularly intense.  
 								Once trapped in the interior ocean, the subducted heat and carbon can remain there for decades to centuries, potentially slowing global surface warming. 
-								These atmosphere-ocean exchange windows are typically found in the Southern Ocean and the high-latitude North Atlantic, which feature exceptionally deep mixing between the surface and the interior ocean. 
-								In order to understand and predict future climate change, we have to understand what controls the location and intensity of these relatively narrow exchange windows.</p>
+								These atmosphere-ocean exchange windows are typically found in the <b>Southern Ocean</b> and the high-latitude <b>North Atlantic</b>, which feature exceptionally deep mixing between the surface and the interior ocean. 
+								For example, the Eastern Pacific pathway (shown above) is a <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016JC011680">relatively rapid and efficient export pathway</a> for the exchange of water between the surface and the subtropical interior.
+								In order to understand and predict future climate change, <b>we have to understand what controls the location and intensity of these relatively narrow exchange windows.</b></p>
 								
 								<p><h3 class="minor">Ocean circulation and dynamics</h3></p>
 								<img src="images/adj.jpg" width="200" alt="" /><br>
-								I use a combination of basic physics, mathematics, and numerical modeling to better understand the behavior of the ocean and its sensitivity 
+								I use a combination of basic physics, mathematics, and numerical modeling to better understand the behavior of the ocean, including its sensitivity 
 								to other components of the climate system. For example, I use <b>ocean adjoint models</b> to uncover potentially hidden ways in which the ocean 
-								can respond to changes in the atmosphere. In a recent study, we found that the heat content of the Labrador Sea, a region of deep convection in the 
-								North Atlantic, is sensitive to wind stress along the relatively remote West African shelf. These sorts of large-scale connections are an important feature 
-								of the climate system that we need to understand. For more information, including an introduction to adjoint sensitivity experiments, see our 
+								can respond to changes in the atmosphere. In a recent study, <b>we found that the heat content of the Labrador Sea, a region of deep convection in the 
+								North Atlantic, is sensitive to wind stress along the relatively remote West African shelf</b>. This kind of large-scale, remote connection is an important feature 
+								of the climate system that we need to better understand. For more information, including an introduction to adjoint sensitivity experiments, see our 
 								<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2018JC013774">article in JGR-Oceans</a>, which is also available 
-								as an <a href="https://eartharxiv.org/kc2u9">open access preprint</a>.  
+								as an <a href="https://eartharxiv.org/kc2u9">open access preprint</a>. 
+								The study is also summarized in this <a href="http://acsis.ac.uk/articles/item/23-what-controls-the-climatically-important-heat-content-of-the-labrador-seathis"> plain language blog post</a>.  
 								
 								<p><h3 class="minor">Machine learning: clustering</h3>
-								<img src="images/clusters.jpg" width="200" alt="" /><<br>
-								I have recently started applying various unsupervised clustering algorithms to oceanographic data in order to better understand its structure. 
+								<img src="images/clusters.jpg" width="200" alt="" /><br>
+								I have recently started applying various <b>unsupervised clustering algorithms</b> to oceanographic data in order to better understand its structure. 
 								In particular, my students and I have applied Gaussian mixture modelling, a machine learning technique, to Southern Ocean temperature profiles. 
 								Our initial results are promising, as we describe in <a href="https://eartharxiv.org/m64t7">this preprint</a> (in revision for JGR-Oceans).
-								</p>
-								<p><h3 class="minor">Air-sea gas exchange</h3>
-								<img src="images/gasex.jpg" width="300" alt="" /><br>
-								The ocean has absorbed roughly 30% of anthropogenic carbon dioxide emissions [ref], alterting the rate of climate change in the atmosphere. 
-								The rate of gas exchange between the atmosphere and ocean varies considerably with location and season, as we describe in this article. 
 								</p>
 							</article>
 							
 						<!-- Teaching -->
 							<article id="teaching">
 								<h2 class="major">Advising and teaching</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<h3 class="minor">Students</h3>
-								<p>
-									Andrew Twelves (co-supervising, PhD University of Edinburgh)
-								    Matthew Koster - Lagrangian particle tracking - (REP, Summer 2018) <br>
-									Shahel Khan - applied machine learning to ocean data - (MS 2018, U. Cambridge) <br>
-									Ben Schrieber - physical context of ecology - (REP, Summer 2017) <br>
-									Harry Holt - machine learning - (REP, Summer 2017) <br>
-									Mark Hammond - freshwater flux - (REP, Summer 2016 and MS 2017, U. Cambridge) <br> 
+								<p>Including undergraduate and graduate students
+								<ul>
+									<li>Andrew Twelves (co-supervisor, PhD, U. Edinburgh)</li>
+								    <li>Matthew Koster (REP 2018) </li>
+									<li>Shahel Khan (Part III 2018, U. Cambridge) </li>
+									<li>Ben Schreiber (REP 2017) </li>
+									<li>Harry Holt (REP 2017) </li>
+									<li><a href="https://mark-hammond.github.io/">Mark Hammond</a> (REP 2016 / Part III 2017, U. Cambridge), now a PhD student at the University of Oxford </li>
+								</ul>
+								Part III = master's degree equivalent, involves a project and write-up<br>
+								REP = Research Experience Placement, involves a substantial summer project<br>
 								</p>
 								<h3 class="minor">Selected university courses taught</h3>
-								<p>Environmental physics (large), calculus, trigonometry, algebra, physics, astronomy</p>
+								<p>Environmental physics, introductory undergraduate physics, astronomy, calculus, trigonometry, algebra</p>
 								<h3 class="minor">Teaching philosophy</h3>
-								<p>I believe in active, learner-centered teaching following the MIT Active Physics model. I have implemented this approach in numerous university courses.</p>
+								<p>I practice learner-centered teaching following the <a href="https://jwel.mit.edu/assets/video/active-learning-physics">MIT Active Learning</a> model. 
+								I have implemented this approach in numerous university courses. While teaching at Georgia Southern University, I restructured the Environmental Physics course 
+								around active learning.</p>
 							</article>
 
 						<!-- Podcast -->
 							<article id="podcast">
 								<h2 class="major">Podcast</h2>
-								<span class="image main"><img src="images/podcast_small.jpg" alt="" /></span>
-								<p>Podcast called <a href="https://anchor.fm/climate-scientists">Climate Scientists</a>.</p>
+								<p>I love working with scientists. They are some of my favorite people. And ultimately, science only gets done because people step up and <i>get to it</i>. 
+								I decided to celebrate some of these fine individuals by inviting them to share relaxed, casual conversations about their lives and work. The results 
+								are captured in my podcast, <a href="https://anchor.fm/climate-scientists"><i>Climate Scientists</i></a>, which is available for free on ten platforms (and counting).</p>
+								<span class="image main"><a href="https://anchor.fm/climate-scientists"><img src="images/podcast_small.jpg" width="200" alt="" /></a></span>
 							</article>
 
 						<!-- CV -->
@@ -125,13 +128,16 @@
 								<p>
 								<b>D.C. Jones</b>, H.J. Holt*, A. Meijers, and E. Shuckburgh (2018), 
 								Unsupervised clustering of Southern Ocean Argo float profiles, 
-								<i>EarthArXiv</i>, doi:10.17605/OSF.IO/M64T7. <a href="https://eartharxiv.org/m64t7">Preprint</a> <br><br>
+								<i>EarthArXiv</i>, doi:10.17605/OSF.IO/M64T7. <a href="https://eartharxiv.org/m64t7">Preprint</a> 
+								(under revision for JGR-Oceans)<br><br>
 								
 								<b>D.C. Jones</b>, G. Forget, B. Sinha, S. Josey, E. Boland, A. Meijers, and E. Shuckburgh (2018), 
 								Local and remote influences on the heat content of the Labrador Sea: an adjoint sensitivity study, 
 								<i>Journal of Geophysical Research - Oceans</i>, 123. doi:10.1002/2018JC013774. 
 								<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2018JC013774">Article</a> /  
-								<a href="https://eartharxiv.org/kc2u9">Preprint</a><br><br>
+								<a href="https://eartharxiv.org/kc2u9">Preprint</a> / 
+								<a href="http://acsis.ac.uk/articles/item/23-what-controls-the-climatically-important-heat-content-of-the-labrador-sea">Blog Post</a>
+								<br><br>
 																
 								N. Mackay, J.R. Ledwell, M.-J. Messias, A. Naveira-Garabato, J.A. Brearley, A. Meijers, <b>D.C. Jones</b>, and A.J. Watson (2018), 
 								Diapycnal mixing in the Southern Ocean diagnosed using the DIMES tracer and realistic velocity fields, 
@@ -145,7 +151,8 @@
 								Hammond, M. D.* and <b>Jones, D. C.</b> (2016), 
 								Freshwater flux from ice sheet melting and iceberg calving in the Southern Ocean, 
 								<i>Geoscience Data Journal</i>, 3: 60-62, doi:10.1002/gdj3.43. 
-								<a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.43">Article</a><br><br>
+								<a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.43">Article</a> / 
+								<a href="https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/376e0b0f-d065-500a-e053-6c86abc0f5e9/">Dataset</a><br><br>
 								
 								Meijers, A., Meredith, M.P., Abrahamsen, E.P., Morales Maqueda, M.A., <b>Jones, D.C.</b>, and Naveira Garabato, A.C. (2016), 
 								Wind-driven export of Weddell Sea slope water. 
@@ -161,6 +168,15 @@
 								Planetary-geometric constraints on isopycnal slope in the Southern Ocean, 
 								<i>Journal of Physical Oceanography</i>, 45 (12), 2991-3004, doi:10.1175/JPO-D-15-0034.1. 
 								<a href="https://journals.ametsoc.org/doi/abs/10.1175/JPO-D-15-0034.1">Article</a><br><br>
+								
+								Ceia, F. R., J. Ramos, R. Phillips, Y. Cherel, <b>D.C. Jones</b>, R. Vieira, and J. Xavier (2015), Analysis of stable isotope ratios in blood of tracked wandering 
+								albatrosses fails to distinguish a 13C gradient within their winter foraging areas in the southwest Atlantic Ocean, <i>Rapid Communications in Mass Spectrometry</i>, 
+								29, 2328-2336, doi:10.1002/rcm.7401.
+								<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/rcm.7401">Article</a><br><br>
+								
+								Xavier, J., B. Raymond, D.C. Jones, and H. Griths (2015), Biogeography of cephalopods in the Southern Ocean using habitat suitability prediction models, 
+								<i>Ecosystems</i>, doi:10.1007/s10021-015-9926-1.
+								<a href="https://link.springer.com/article/10.1007/s10021-015-9926-1">Article</a><br><br>
 								
 								<b>D.C. Jones</b>, T. Ito, Y. Takano, and W-C. Hsu (2014), 
 								Spatial and seasonal variability of the air-sea equilibration timescale of carbon dioxide, 
