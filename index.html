@@ -31,6 +31,7 @@
 								<li><a href="#research">Research</a></li>
 								<li><a href="#teaching">Teaching</a></li>
 								<li><a href="#podcast">Podcast</a></li>
+								<li><a href="#publications">Publications</a>
 								<li><a href="#CV">CV</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -44,9 +45,11 @@
 							<article id="intro">
 								<h2 class="major">About me</h2>
 								<p><center><img src="images/dj2.jpg" width="300" alt="" /></center></p>
+								<p>I am an oceanographer at the <a href="https://www.bas.ac.uk/">British Antarctic Survey</a> and a Senior Member of <a href="https://www.darwin.cam.ac.uk/">Darwin College</a>, University of Cambridge.
 								<p>I entered oceanography via physics and applied mathematics. My typical regions of study are the Southern Ocean and (recently) the North Atlantic, which are both 
 								climate-relevant regions that feature strong exchanges of heat and carbon between the atmosphere and the deep ocean. My toolbox includes a hierarchy of approaches, from simple pen-and-paper representations to high-resolution adjoint models. 
-								I also use a few machine learning techniques (so far, mainly unsupervised clustering) to better understand oceanic data. Outside of work, I spend time with my wife and young son, squeezing in some reading and guitar playing where possible. 
+								
+								<p>Outside of work, I spend time with my wife and young son, squeezing in some reading and guitar playing where possible. 
 								We live in a village just outside of Cambridge, UK.</p>
 							</article>
 
@@ -54,8 +57,20 @@
 							<article id="research">
 								<h2 class="major">Research</h2>
 								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								
+								<p><h3 class="minor">Involvement with large, collaborative efforts</h3>
+								<ul>
+								<li>The North Atlantic Climate System Integrated Study (<a href="http://acsis.ac.uk/">ACSIS</a>)</li>
+								<li>Ocean Regulation of Climate by Heat and Carbon Sequestration and Transports (<a href="https://www.bas.ac.uk/project/orchestra/">ORCHESTRA</a>) </li>
+								<li>Securing Multidisciplinary UndeRstanding and Prediction of Hiatus and Surge events (<a href="https://smurphs.leeds.ac.uk/">SMURPHS</a>)</li>
+								<li>Integrating Climate and Ecosystem Dynamics (<a href="https://www.iced.ac.uk/">ICED</a>)</li>
+								<li><a href="https://www.bas.ac.uk/project/data-science-interest-group/">BAS Data Science Group</a></li>
+								</ul>
+								
+								<hr>
+								
 								<p><h3 class="minor">Background</h3>
-								<img src="images/expose.jpg" width="200" alt="" /><br>
+							
 								Earth's oceans have an enormous impact on global and regional climate. For example, the ocean contains more than <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL051106">90% of the extra heat</a> present in the climate system due 
 								to global warming. However, the mechanisms involved in the exchange of heat and carbon between the ocean and atmosphere, and how they may change in the future, are still poorly understood.
 								
@@ -64,26 +79,37 @@
 								<p>At a few distinct locations on Earth, the natural injection of heat and carbon into the interior ocean, called <i>subduction</i>, is particularly intense.  
 								Once trapped in the interior ocean, the subducted heat and carbon can remain there for decades to centuries, potentially slowing global surface warming. 
 								These atmosphere-ocean exchange windows are typically found in the <b>Southern Ocean</b> and the high-latitude <b>North Atlantic</b>, which feature exceptionally deep mixing between the surface and the interior ocean. 
-								For example, the Eastern Pacific pathway (shown above) is a <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016JC011680">relatively rapid and efficient export pathway</a> for the exchange of water between the surface and the subtropical interior.
+								For example, the Eastern Pacific pathway (shown below) is a <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016JC011680"><b>relatively rapid and efficient export pathway (link to research article)</b></a> for the exchange of water between the surface and the subtropical interior.
 								In order to understand and predict future climate change, <b>we have to understand what controls the location and intensity of these relatively narrow exchange windows.</b></p>
 								
+									<img src="images/expose.jpg" width="200" alt="" /><br>
+								
+								<hr>
+								
 								<p><h3 class="minor">Ocean circulation and dynamics</h3></p>
-								<img src="images/adj.jpg" width="200" alt="" /><br>
+
 								I use a combination of basic physics, mathematics, and numerical modeling to better understand the behavior of the ocean, including its sensitivity 
 								to other components of the climate system. For example, I use <b>ocean adjoint models</b> to uncover potentially hidden ways in which the ocean 
 								can respond to changes in the atmosphere. In a recent study, <b>we found that the heat content of the Labrador Sea, a region of deep convection in the 
 								North Atlantic, is sensitive to wind stress along the relatively remote West African shelf</b>. This kind of large-scale, remote connection is an important feature 
 								of the climate system that we need to better understand. For more information, including an introduction to adjoint sensitivity experiments, see our 
-								<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2018JC013774">article in JGR-Oceans</a>, which is also available 
+								<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2018JC013774"><b>article in JGR-Oceans</b></a>, which is also available 
 								as an <a href="https://eartharxiv.org/kc2u9">open access preprint</a>. 
-								The study is also summarized in this <a href="http://acsis.ac.uk/articles/item/23-what-controls-the-climatically-important-heat-content-of-the-labrador-seathis"> plain language blog post</a>.  
+								The study is also summarized in this <a href="http://acsis.ac.uk/articles/item/23-what-controls-the-climatically-important-heat-content-of-the-labrador-seathis"> <b>plain language blog post</b></a></p>
+								<img src="images/adj.jpg" width="200" alt="" /><br>								
+								<p><b>For more on ocean adjoint modelling, see my <a href="https://youtu.be/vr-OgFJaT3g">webinar recording from 2016</a></b></p>
+								
+								<hr>
 								
 								<p><h3 class="minor">Machine learning: clustering</h3>
-								<img src="images/clusters.jpg" width="200" alt="" /><br>
+
 								I have recently started applying various <b>unsupervised clustering algorithms</b> to oceanographic data in order to better understand its structure. 
 								In particular, my students and I have applied Gaussian mixture modelling, a machine learning technique, to Southern Ocean temperature profiles. 
-								Our initial results are promising, as we describe in <a href="https://eartharxiv.org/m64t7">this preprint</a> (in revision for JGR-Oceans).
-								</p>
+								Our initial results are promising, as we describe in <a href="https://eartharxiv.org/m64t7"><b>this preprint</b></a> (in revision for JGR-Oceans).</p>
+								<img src="images/clusters.jpg" width="200" alt="" /><br>
+								
+								<hr>
+								
 							</article>
 							
 						<!-- Teaching -->
@@ -120,18 +146,19 @@
 								<span class="image main"><a href="https://anchor.fm/climate-scientists"><img src="images/podcast_small.jpg" width="200" alt="" /></a></span>
 							</article>
 
-						<!-- CV -->
-							<article id="CV">
-								<h2 class="major">CV</h2>
+						<!-- Publications -->
+							<article id="publications">
+								<h2 class="major">Publications</h2>
 							
 								
-								<h3 class="minor">Selected publications</h3>
-								<p>
+								<h3 class="minor">Featured publications</h3>
+								<p><b>Our pre-print on machine learning applied to Argo float data:</b><br>
 								<b>D.C. Jones</b>, H.J. Holt*, A. Meijers, and E. Shuckburgh (2018), 
 								Unsupervised clustering of Southern Ocean Argo float profiles, 
 								<i>EarthArXiv</i>, doi:10.17605/OSF.IO/M64T7. <a href="https://eartharxiv.org/m64t7">Preprint</a> 
 								(under revision for JGR-Oceans)<br><br>
 								
+								<p><b>Our paper on a connection between the Labrador Sea and West Africa:</b><br>
 								<b>D.C. Jones</b>, G. Forget, B. Sinha, S. Josey, E. Boland, A. Meijers, and E. Shuckburgh (2018), 
 								Local and remote influences on the heat content of the Labrador Sea: an adjoint sensitivity study, 
 								<i>Journal of Geophysical Research - Oceans</i>, 123. doi:10.1002/2018JC013774. 
@@ -139,6 +166,11 @@
 								<a href="https://eartharxiv.org/kc2u9">Preprint</a> / 
 								<a href="http://acsis.ac.uk/articles/item/23-what-controls-the-climatically-important-heat-content-of-the-labrador-sea">Blog Post</a>
 								<br><br>
+								
+								</p>
+								
+								<h3 class="minor">Selected publications</h3>
+								<p>
 																
 								N. Mackay, J.R. Ledwell, M.-J. Messias, A. Naveira-Garabato, J.A. Brearley, A. Meijers, <b>D.C. Jones</b>, and A.J. Watson (2018), 
 								Diapycnal mixing in the Southern Ocean diagnosed using the DIMES tracer and realistic velocity fields, 
@@ -191,12 +223,18 @@
 								
 								* = student
 								
-								</p>
+								</p>							
+								
+							</article>
+							
+						<!--  CV -->
+							<article id="CV">
+								<h2 class="major">CV</h2>
 								
 								<h3 class="minor">Funding awarded</h3>
 								<p>
-									PI, Four separate NERC Research Experience Placements (£2500 each x4 = £10,000) <br>
-									PI, ARCHER development grant (£63,400) <br>
+									PI, five separate NERC Research Experience Placements (£2500 each x5 = £12,500) <br>
+									PI, <a href="http://www.archer.ac.uk/community/eCSE/eCSE03-09/eCSE03-09.php">ARCHER HPC software development grant</a> (roughly £90,000) <br>
 								</p>
 								
 								<h3 class="minor">Research experience</h3>
@@ -211,6 +249,28 @@
 									Instructor of Physics, Georgia Southern University, Statesboro, GA, USA (2007 - 2009) <br>
 								</p>
 								
+								<h3 class="minor">Public engagement and media</h3>
+								<p>
+								<ul>
+									<li>Producer and host, the <a href="https://anchor.fm/climate-scientists">Climate Scientists</a> podcast</li>
+									<li>Expert reviewer, <a href="https://climatefeedback.org/">Climate Feedback</a></li>
+									<li>Organiser and host, annual <a href="https://www.sciencefestival.cam.ac.uk/">Cambridge Science Festival</a> events (since 2015)</li>
+									<li>Guest, <a href="https://www.thenakedscientists.com/articles/questions/climate-change-really-happening">The Naked Scientist Podcast</a></li>
+									<li>Guest, BBC Radio Cambrideshire Interview (2016)</li>
+								</ul>
+								</p>
+								
+								<h3 class="minor">Selected service and leadership</h3>
+								<p>
+								<ul>
+									<li>Climate Science Communications Group, Royal Meteorological Society (2014 - )
+									<li>Network Coordinator, <a href="https://www.climatescience.cam.ac.uk/">Cambridge Centre for Climate Science</a> (2015-2016)</li>
+									<li>Principal Organiser, workshop on Techniques, Aims, and Challenges of Ocean-ice Modelling (Adjoint) [TACOMA], University of Oxford (2018)</li>
+									<li>Coordinator, Polar Oceans and Director's Choice Seminar Series, British Antarctic Survey (2013-2015)</li>
+									<li>Chair, Faculty Community on Learner-Centered Teaching, Georgia Southern University (2007-2009)</li>
+								
+								</ul>
+								
 								<h3 class="minor">Education</h3>
 								<p>
 									PhD - Atmospheric Science, Colorado State University (2013)<br>
@@ -218,8 +278,7 @@
 									MS - Physics, University of Kentucky (2007)<br>
 									BS - Physics, Georgia Southern University (2005)<br>
 								</p>
-								
-								
+														
 							</article>
 
 						<!-- Contact -->
